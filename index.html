@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        alert ("Welcome Our Resturant")
+
+let dish =prompt("What do you like to eat","Pizza,Burger,Biryani")
+
+ if(dish === "Biryani"){
+
+let typeOfBiryani = prompt("which type of Biryani you Chosse","Chicken,Beef")
+
+if(typeOfBiryani === "Chicken"){
+        prompt("Do you want single or double")
+        alert("congrats your order would be deliver in 20 mins")
+}
+else if(typeOfBiryani === "Beef"){
+    prompt("Do you want single or double")
+    alert("congrats your order would be deliver in 20 mins")
+}
+
+else{
+    alert("Sorry we don't have" + typeOfBiryani)
+}
+
+}
+else if (dish === "Pizza"){
+    prompt("Which flavor you want to order","fajita,chicken tikka,garlic tikka")
+    alert("congrats your order would be deliver in 60 mins")
+}
+else if (dish === "Burger"){
+    prompt("Which flavor you want to order","Chicken , Beef")
+    alert("congrats your order would be deliver in 60 mins")
+}
+else if(dish === "Biryani,Pizza,Burger"){
+   alert("if you want to order multiple items so, then  place order one by one firstly biryani then pizza then after burger")
+}
+else{
+    alert("Sorry we have only limited items you see in the before msg plz refresh your page and place your order.")
+}
+
+    </script>
+</body>
+</html>
